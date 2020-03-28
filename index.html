@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="input-group input-group-md">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="search">
+                            <i class="fa fa-search"></i>
+                        </label>
+                    </div>
+                    <input type="text" class="form-control" id="search" autofocus>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <table id="result" class="table table-bordered table-striped table-light col-md-10">
+            </table>
+        </div>
+    </div>
+</body>
+<script src="core/server/index.js" />
+<script src="assets/bootstrap/js/bootstrap.min.js" />
+</script>
+
+</html>
