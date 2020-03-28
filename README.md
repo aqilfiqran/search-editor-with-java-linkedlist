@@ -13,6 +13,7 @@ This is an implementation of the Java linkedlist which is integrated with HTML
     http://localhost/search-editor-with-java-linkedlist/index.html
 ```
 4. you can search and press enter to get result like this
+
 | No  | Name | Edited Article |
 | :--- | :--- | :--- |
 | 1  | Bayu Galih  | 13 |
