@@ -1,0 +1,3 @@
+.vscode
+core/data/json/*.class
+core/data/json/list/*.class
